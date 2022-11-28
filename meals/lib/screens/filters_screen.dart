@@ -1,0 +1,22 @@
+// ignore_for_file: prefer_const_constructors
+
+import 'package:flutter/material.dart';
+
+import '../widgets/main_drawer.dart';
+
+class FiltersScreen extends StatelessWidget {
+  static const routeName = '/filters';
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Hello'),
+      ),
+      drawer: MainDrawer(),
+      body: Center(
+        child: Text('Filter Scrren!'),
+      ),
+    );
+  }
+}
