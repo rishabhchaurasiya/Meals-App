@@ -1,8 +1,5 @@
 // ignore_for_file: prefer_const_constructors
 
-import 'dart:ui' as ui;
-import 'dart:html' as ui;
-
 import 'package:flutter/material.dart';
 import 'package:meals/utils/TextStyle.dart';
 
